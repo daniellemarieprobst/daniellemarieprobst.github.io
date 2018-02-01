@@ -1,0 +1,733 @@
+body{
+	background-color: rgb(114,20,49);
+
+}
+div{
+	position:absolute;
+}
+
+h3:hover {
+	opacity:1;
+	cursor:pointer;
+}
+p:hover {
+	opacity:1;
+	cursor:pointer;
+}
+
+h2:hover {
+	cursor:pointer;
+}
+
+	
+
+.stephan{
+	position:absolute;
+	top:280px;
+	right:270px;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	font-size:60px;
+	font-weight:500;
+}
+
+.hough{
+	position:absolute;
+	top:280px;
+	right:80px;
+	font-family: 'Oswald', sans-serif;
+	color: rgb(167,169,172);
+	font-size:60px;
+	font-weight:500;
+}
+
+.date{
+	position:absolute;
+	top:370px;
+	right:80px;
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	font-size:40px;
+	font-weight:700;
+	opacity:.6;
+}
+.carnegie{
+	position:absolute;
+	top:450px;
+	right: 82px;
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	font-size:16px;
+	font-weight:300;
+	opacity:.6;
+}
+
+.title{
+	top:0px;
+	right:0px;
+	width:100vw;
+	height:380px;
+	background-color: rgb(37,35,36);
+	}
+
+
+.gkey1{
+	top:120px;
+	left:0px;
+	width:50px;
+	height:260px;
+	background-color: rgb(167,169,172);
+		animation-name: gkey1;
+  		animation-duration: 8s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes gkey1 {
+			  0% {
+			   opacity:0;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:1;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:0;
+			  }
+			}
+
+
+.wkey1{
+	top:80px;
+	left:25px;
+	width:50px;
+	height:220px;
+	border:2px solid white;
+		animation-name: wkey1;
+  		animation-duration: 8s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes wkey1 {
+			  0% {
+			   opacity:1;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:0;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:1;
+			  }
+			}
+
+
+
+.wkey2{
+	top:0px;
+	left:440px;
+	width:50px;
+	height:176px;
+	border:2px solid white;
+		animation-name: wkey2;
+  		animation-duration: 8s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes wkey2 {
+			  0% {
+			   opacity:0;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:1;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:0;
+			  }
+			}
+
+
+.gkey2{
+	top:50px;
+	left:410px;
+	width:50px;
+	height:215px;
+	background-color: rgb(167,169,172);
+		animation-name: gkey2;
+  		animation-duration: 6s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes gkey2 {
+			  0% {
+			   opacity:1;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:0;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:1;
+			  }
+			}
+
+
+.bkey2{
+	top:240px;
+	left:490px;
+	width:35px;
+	height:100px;
+	background-color: black;
+			animation-name: bkey2;
+  		animation-duration: 8s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes bkey2 {
+			  0% {
+			   opacity:0;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:1;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:0;
+			  }
+			}
+
+.gkey3{
+	top:0px;
+	left:170px;
+	width:50px;
+	height:130px;
+	background-color: rgb(167,169,172);
+		animation-name: gkey3;
+  		animation-duration: 11s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes gkey3 {
+			  0% {
+			   opacity:1;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:0;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:1;
+			  }
+			}
+
+.bkey3{
+	top:0px;
+	left:150px;
+	width:35px;
+	height:65px;
+	background-color: black;
+				animation-name: bkey3;
+  		animation-duration: 8s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes bkey3 {
+			  0% {
+			   opacity:0;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:1;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:0;
+			  }
+			}
+
+.gkey4{
+	top:450px;
+	left:80px;
+	width:50px;
+	height:160px;
+	background-color: rgb(167,169,172);
+		animation-name: gkey4;
+  		animation-duration: 11s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes gkey4 {
+			  0% {
+			   opacity:1;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:0;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:1;
+			  }
+			}
+
+
+.bkey4{
+	top:550px;
+	left:15px;
+	width:35px;
+	height:100px;
+	background-color: black;
+		animation-name: bkey4;
+  		animation-duration: 11s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes bkey4 {
+			  0% {
+			   opacity:0;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:1;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:0;
+			  }
+			}
+
+
+.gkey5{
+	top:240px;
+	left:650px;
+	width:50px;
+	height:230px;
+	background-color: rgb(167,169,172);
+		animation-name: gkey5;
+  		animation-duration: 10s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes gkey5 {
+			  0% {
+			   opacity:1;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:0;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:1;
+			  }
+			}
+
+
+.wkey5{
+	top:340px;
+	left:670px;
+	width:50px;
+	height:176px;
+	border:2px solid white;
+		animation-name: wkey5;
+  		animation-duration: 9s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes wkey5 {
+			  0% {
+			   opacity:0;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:1;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:0;
+			  }
+			}
+
+
+.gkey6{
+	top:340px;
+	left:280px;
+	width:50px;
+	height:180px;
+	background-color: rgb(167,169,172);
+		animation-name: gkey6;
+  		animation-duration: 8s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes gkey6 {
+			  0% {
+			   opacity:0;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:1;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:0;
+			  }
+			}
+
+.wkey6{
+	top:320px;
+	left:226px;
+	width:50px;
+	height:176px;
+	border:2px solid white;
+		animation-name: wkey6;
+  		animation-duration: 6s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes wkey6 {
+			  0% {
+			   opacity:1;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:0;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:1;
+			  }
+			}
+
+.bkey6{
+	top:320px;
+	left:260px;
+	width:35px;
+	height:100px;
+	background-color: black;
+		animation-name: bkey6;
+  		animation-duration: 11s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes bkey6 {
+			  0% {
+			   opacity:1;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:0;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:1;
+			  }
+			}
+
+
+.gkey7{
+	top:520px;
+	left:520px;
+	width:50px;
+	height:140px;
+	background-color: rgb(167,169,172);
+		animation-name: gkey7;
+  		animation-duration: 8s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes gkey7 {
+			  0% {
+			   opacity:0;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:1;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:0;
+			  }
+			}
+
+.bkey7{
+	top:500px;
+	left:550px;
+	width:35px;
+	height:100px;
+	background-color: black;
+				animation-name: bkey3;
+  		animation-duration: 8s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes bkey3 {
+			  0% {
+			   opacity:0;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:1;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:0;
+			  }
+			}
+
+@media(max-width: 650px){
+	
+	.title{
+		top:0px;
+		right:0px;
+		width:100vw;
+		height:75vh;
+		background-color: rgb(37,35,36);
+	}
+
+.stephan{
+	position:fixed;
+	top:60vh;
+	right:45vh;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	font-size:60px;
+	font-weight:500;
+}
+
+.hough{
+	position:fixed;
+	top:60vh;
+	right:15vh;
+	font-family: 'Oswald', sans-serif;
+	color: rgb(167,169,172);
+	font-size:60px;
+	font-weight:500;
+}
+
+.date{
+	position:fixed;
+	top:74vh;
+	right:35vh;
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	font-size:45px;
+	font-weight:700;
+	opacity:.6;
+}
+.carnegie{
+	position:fixed;
+	top:89vh;
+	right: 35.3vh;
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	font-size:18px;
+	font-weight:300;
+	opacity:.6;
+}
+
+
+.gkey1{
+	top:120px;
+	left:0px;
+	width:35px;
+	height:140px;
+}
+
+.wkey1{
+	top:80px;
+	left:15px;
+	width:35px;
+	height:120px;
+}
+
+.wkey2{
+	top:0px;
+	left:425px;
+	width:35px;
+	height:98px;
+}
+
+.gkey2{
+	top:50px;
+	left:410px;
+	width:35px;
+	height:117.5px;
+}
+
+.bkey2{
+	top:130px;
+	left:458px;
+	width:27.5px;
+	height:70px;
+}
+
+.gkey3{
+	top:0px;
+	left:160px;
+	width:35px;
+	height:95px;
+}
+
+.bkey3{
+	top:0px;
+	left:150px;
+	width:27.5px;
+	height:52.5px;
+}
+
+.gkey4{
+	top:330px;
+	left:50px;
+	width:35px;
+	height:90px;
+}
+
+.bkey4{
+	top:400px;
+	left:15px;
+	width:27.5px;
+	height:60px;
+}
+
+.gkey5{
+	top:200px;
+	left:550px;
+	width:35px;
+	height:125px;
+}
+
+.wkey5{
+	top:250px;
+	left:560px;
+	width:35px;
+	height:98px;
+}
+
+.gkey6{
+	top:230px;
+	left:255px;
+	width:35px;
+	height:120px;
+}
+
+.wkey6{
+	top:200px;
+	left:216px;
+	width:35px;
+	height:118px;
+}
+
+.bkey6{
+	top:200px;
+	left:240px;
+	width:27.5px;
+	height:70px;
+}
+
+.gkey7{
+	top:320px;
+	left:430px;
+	width:35px;
+	height:100px;
+}
+
+.bkey7{
+	top:300px;
+	left:420px;
+	width:27.5px;
+	height:70px;
+}
+
+
+
+
+
+
+
