@@ -1,0 +1,1158 @@
+body{
+	background-color: rgb(114,20,49);
+}
+div{
+	position:fixed;
+}
+
+h3:hover {
+	opacity:1;
+	cursor:pointer;
+}
+p:hover {
+	opacity:1;
+}
+
+h2:hover {
+	cursor:pointer;
+}
+
+div:hover{
+	opacity:1;
+	cursor:pointer;
+}
+
+
+.home{
+	position:absolute;
+	opacity:.8;
+	background-color:black;
+	top:15px;
+	left:15px;
+	width:50px;
+	height:25px;
+	color:rgb(167,169,172);
+	font-family: 'Oswald', sans-serif;
+	font-size:14px;
+	text-align:center;
+	padding:2px;
+	padding-top:3px;
+
+} 
+
+.tickets{
+	position:absolute;
+	opacity:.8;
+	background-color:black;
+	top:15px;
+	left:68px;
+	width:50px;
+	height:25px;
+	color:rgb(167,169,172);
+	font-family: 'Oswald', sans-serif;
+	font-size:14px;
+	text-align:center;
+	padding-right:4px;
+	padding-left:4px;
+	padding-top: 3px;
+	padding-bottom:2px;
+
+
+} 
+.website{
+	position:absolute;
+	background-color:black;
+	top:745px;
+	left:76px;
+	width:456px;
+	height:25px;
+	opacity:.7;
+	color:rgb(167,169,172);
+	font-family: 'Oswald', sans-serif;
+	font-size:14px;
+	text-align:center;
+	padding-top:2px;
+}
+
+.houghpic{
+	position:absolute;
+	left:76px;
+	top:440px;
+	width:455px;
+	height:auto;
+	padding-bottom:10vh;
+
+}
+
+.quote{
+	position:absolute;
+	color: rgb(167,169,172);
+	font-family: 'Oswald', sans-serif;
+	font-size:76px;
+	right:0px;
+	top:0px;
+	padding-left:20vw;
+	padding-right:15vw;
+
+
+}
+
+.quote2{
+	position:absolute;
+	color: rgb(167,169,172);
+	font-family: 'Oswald', sans-serif;
+	font-size:20px;
+	right:0px;
+	top:295px;
+	padding-right:15vw;
+
+}
+
+.bio{
+	position:absolute;
+	color: white;
+	font-family: 'roboto', sans-serif;
+	font-weight:200;
+	font-size:15px;
+	line-height:25px;
+	max-width:42%;
+	top:420px;
+	right:85px;
+	padding-bottom:10vh;
+}
+
+.ticket{
+	position:fixed;
+	top:515px;
+	right:82px;
+	width:126px;
+	height:25px;
+	text-align:center;
+	padding: 3px;
+	background-color: black;
+	font-family: 'Oswald', sans-serif;
+	color: rgb(167,169,172);
+	opacity:.5;
+}
+
+	
+
+.stephan{
+	position:fixed;
+	top:280px;
+	right:270px;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	font-size:60px;
+	font-weight:500;
+}
+
+.hough{
+	position:fixed;
+	top:280px;
+	right:80px;
+	font-family: 'Oswald', sans-serif;
+	color: rgb(167,169,172);
+	font-size:60px;
+	font-weight:500;
+}
+
+.date{
+	position:fixed;
+	top:370px;
+	right:80px;
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	font-size:40px;
+	font-weight:700;
+	opacity:.6;
+}
+.carnegie{
+	position:fixed;
+	top:455px;
+	right: 82px;
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	font-size:16px;
+	font-weight:300;
+	opacity:.6;
+}
+
+.title{
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:100vw;
+	height:380px;
+	background-color: rgb(37,35,36);
+	}
+
+
+.gkey1{
+	top:120px;
+	left:0px;
+	width:50px;
+	height:240px;
+	background-color: rgb(167,169,172);
+		animation-name: gkey1;
+  		animation-duration: 8s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes gkey1 {
+			  0% {
+			   opacity:0;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:1;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:0;
+			  }
+			}
+
+
+.wkey1{
+	top:80px;
+	left:25px;
+	width:50px;
+	height:200px;
+	border:2px solid white;
+		animation-name: wkey1;
+  		animation-duration: 8s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes wkey1 {
+			  0% {
+			   opacity:1;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:0;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:1;
+			  }
+			}
+
+
+
+.wkey2{
+	top:0px;
+	left:440px;
+	width:50px;
+	height:176px;
+	border:2px solid white;
+		animation-name: wkey2;
+  		animation-duration: 8s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes wkey2 {
+			  0% {
+			   opacity:0;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:1;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:0;
+			  }
+			}
+
+
+.gkey2{
+	top:50px;
+	left:410px;
+	width:50px;
+	height:215px;
+	background-color: rgb(167,169,172);
+		animation-name: gkey2;
+  		animation-duration: 6s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes gkey2 {
+			  0% {
+			   opacity:1;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:0;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:1;
+			  }
+			}
+
+
+.bkey2{
+	top:240px;
+	left:490px;
+	width:35px;
+	height:100px;
+	background-color: black;
+			animation-name: bkey2;
+  		animation-duration: 8s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes bkey2 {
+			  0% {
+			   opacity:0;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:1;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:0;
+			  }
+			}
+
+.gkey3{
+	top:0px;
+	left:170px;
+	width:50px;
+	height:130px;
+	background-color: rgb(167,169,172);
+		animation-name: gkey3;
+  		animation-duration: 11s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes gkey3 {
+			  0% {
+			   opacity:1;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:0;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:1;
+			  }
+			}
+
+.bkey3{
+	top:0px;
+	left:150px;
+	width:35px;
+	height:65px;
+	background-color: black;
+				animation-name: bkey3;
+  		animation-duration: 8s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes bkey3 {
+			  0% {
+			   opacity:0;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:1;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:0;
+			  }
+			}
+
+.gkey4{
+	top:450px;
+	left:80px;
+	width:50px;
+	height:160px;
+	background-color: rgb(167,169,172);
+		animation-name: gkey4;
+  		animation-duration: 11s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes gkey4 {
+			  0% {
+			   opacity:1;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:0;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:1;
+			  }
+			}
+
+
+.bkey4{
+	top:550px;
+	left:15px;
+	width:35px;
+	height:100px;
+	background-color: black;
+		animation-name: bkey4;
+  		animation-duration: 11s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes bkey4 {
+			  0% {
+			   opacity:0;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:1;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:0;
+			  }
+			}
+
+
+.gkey5{
+	top:240px;
+	left:650px;
+	width:50px;
+	height:230px;
+	background-color: rgb(167,169,172);
+		animation-name: gkey5;
+  		animation-duration: 10s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes gkey5 {
+			  0% {
+			   opacity:1;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:0;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:1;
+			  }
+			}
+
+
+.wkey5{
+	top:340px;
+	left:670px;
+	width:50px;
+	height:176px;
+	border:2px solid white;
+		animation-name: wkey5;
+  		animation-duration: 9s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes wkey5 {
+			  0% {
+			   opacity:0;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:1;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:0;
+			  }
+			}
+
+
+.gkey6{
+	top:340px;
+	left:280px;
+	width:50px;
+	height:180px;
+	background-color: rgb(167,169,172);
+		animation-name: gkey6;
+  		animation-duration: 8s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes gkey6 {
+			  0% {
+			   opacity:0;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:1;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:0;
+			  }
+			}
+
+.wkey6{
+	top:320px;
+	left:226px;
+	width:50px;
+	height:176px;
+	border:2px solid white;
+		animation-name: wkey6;
+  		animation-duration: 6s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes wkey6 {
+			  0% {
+			   opacity:1;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:0;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:1;
+			  }
+			}
+
+.bkey6{
+	top:320px;
+	left:260px;
+	width:35px;
+	height:100px;
+	background-color: black;
+		animation-name: bkey6;
+  		animation-duration: 11s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes bkey6 {
+			  0% {
+			   opacity:1;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:0;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:1;
+			  }
+			}
+
+
+.gkey7{
+	top:520px;
+	left:520px;
+	width:50px;
+	height:140px;
+	background-color: rgb(167,169,172);
+		animation-name: gkey7;
+  		animation-duration: 8s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes gkey7 {
+			  0% {
+			   opacity:0;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:1;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:0;
+			  }
+			}
+
+.bkey7{
+	top:500px;
+	left:550px;
+	width:35px;
+	height:100px;
+	background-color: black;
+				animation-name: bkey3;
+  		animation-duration: 8s;
+  		animation-iteration-count: infinite;
+  		animation-timing-function: linear;
+}
+
+			@keyframes bkey3 {
+			  0% {
+			   opacity:0;
+			  }
+			  25% {
+			   opacity:.5;
+			  }
+			  50% {
+				opacity:1;
+			  }
+			  75% {
+			   opacity:.5;
+			  }
+			  100% {
+			   opacity:0;
+			  }
+			}
+
+@media(max-width: 550px){
+	
+.title{
+	top:0px;
+	right:0px;
+	width:100vw;
+	height:65vh;
+	background-color: rgb(37,35,36);
+	}
+
+.stephan{
+	position:fixed;
+	top:50vh;
+	right:40vh;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	font-size:60px;
+	font-weight:500;
+}
+
+.hough{
+	position:fixed;
+	top:50vh;
+	right:11vh;
+	font-family: 'Oswald', sans-serif;
+	color: rgb(167,169,172);
+	font-size:60px;
+	font-weight:500;
+}
+
+.date{
+	position:fixed;
+	top:65vh;
+	right:30vh;
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	font-size:45px;
+	font-weight:700;
+	opacity:.6;
+}
+.carnegie{
+	position:fixed;
+	top:80vh;
+	right: 30.3vh;
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	font-size:18px;
+	font-weight:300;
+	opacity:.6;
+}
+
+
+.gkey1{
+	top:110px;
+	left:0px;
+	width:35px;
+	height:140px;
+}
+
+.wkey1{
+	top:70px;
+	left:15px;
+	width:35px;
+	height:120px;
+}
+
+.wkey2{
+	top:0px;
+	left:425px;
+	width:35px;
+	height:98px;
+}
+
+.gkey2{
+	top:40px;
+	left:410px;
+	width:35px;
+	height:117.5px;
+}
+
+.bkey2{
+	top:120px;
+	left:458px;
+	width:27.5px;
+	height:70px;
+}
+
+.gkey3{
+	top:0px;
+	left:160px;
+	width:35px;
+	height:95px;
+}
+
+.bkey3{
+	top:0px;
+	left:150px;
+	width:27.5px;
+	height:52.5px;
+}
+
+.gkey4{
+	top:290px;
+	left:60px;
+	width:35px;
+	height:90px;
+}
+
+.bkey4{
+	top:360px;
+	left:25px;
+	width:27.5px;
+	height:60px;
+}
+
+.gkey5{
+	top:190px;
+	left:550px;
+	width:35px;
+	height:125px;
+}
+
+.wkey5{
+	top:240px;
+	left:560px;
+	width:35px;
+	height:98px;
+}
+
+.gkey6{
+	top:220px;
+	left:255px;
+	width:35px;
+	height:120px;
+}
+
+.wkey6{
+	top:190px;
+	left:216px;
+	width:35px;
+	height:118px;
+}
+
+.bkey6{
+	top:190px;
+	left:240px;
+	width:27.5px;
+	height:70px;
+}
+
+.gkey7{
+	top:310px;
+	left:430px;
+	width:35px;
+	height:100px;
+}
+
+.bkey7{
+	top:290px;
+	left:420px;
+	width:27.5px;
+	height:70px;
+}
+
+.ticket{
+	position:fixed;
+	top:592px;
+	right:213px;
+	width:120px;
+	height:30px;
+	text-align:center;
+	padding-top:6px;
+	background-color:black;
+	font-family: 'Oswald', sans-serif;
+	color: rgb(167,169,172);
+	opacity:.6;
+	font-size:18px;
+}
+}
+
+@media(max-width: 1170px){
+
+.quote{
+	font-size:72px;
+	padding-left:20vw;
+	padding-right:15vw;
+
+}
+
+.quote2{
+	
+	font-size:16px;
+	right:0px;
+	top:270px;
+	padding-right:25vh;	
+
+}
+
+.bio{
+	
+	font-size:14px;
+	line-height:24px;
+	max-width:38%;
+}
+
+.website{
+	width:420px;
+	top:718px;
+}
+
+.houghpic{
+	width:420px;	
+
+}
+
+}
+@media(max-width: 1108px){
+
+.quote{
+	padding-left:18vw;
+	padding-right:10vw;
+
+}
+
+.quote2{
+	padding-right:25vh;	
+
+}
+
+
+@media(max-width: 1025px){
+
+.quote{
+	font-size:64px;
+	padding-left:16vw;
+	padding-right:15vw;
+
+}
+
+.quote2{
+	
+	font-size:14px;
+	right:0px;
+	top:240px;
+	padding-right:25vh;	
+
+}
+
+.bio{
+	top:380px;
+	font-size:13px;
+	line-height:23px;
+	max-width:36%;
+}
+
+.website{
+	width:400px;
+	top:665px;
+}
+
+.houghpic{
+	top:400px;
+	width:400px;	
+
+}
+}
+
+
+@media(max-width: 1000px){
+
+.quote{
+	font-size:60px;
+	padding-left:16vw;
+	padding-right:15vw;
+
+}
+
+.quote2{
+	
+	font-size:14px;
+	right:0px;
+	top:240px;
+	padding-right:25vh;	
+
+}
+
+.bio{
+
+	top:360px;
+	font-size:12px;
+	line-height:22px;
+	max-width:36%;
+}
+
+.website{
+	width:380px;
+	top:635px;
+}
+
+.houghpic{
+	top:380px;
+	width:380px;	
+
+}
+}
+
+@media(max-width: 975px){
+
+.quote{
+	font-size:58px;
+	padding-left:16vw;
+	padding-right:15vw;
+
+}
+
+.quote2{
+	
+	font-size:12px;
+	right:0px;
+	top:230px;
+	padding-right:25vh;	
+
+}
+
+.bio{
+
+	top:340px;
+	font-size:12px;
+	line-height:22px;
+	max-width:34%;
+}
+
+.website{
+	width:360px;
+	top:600px;
+}
+
+.houghpic{
+	top:360px;
+	width:360px;	
+
+}
+}
+
+@media(max-width: 850px){
+
+.quote{
+	font-size:55px;
+	padding-left:16vw;
+	padding-right:15vw;
+
+}
+
+.quote2{
+	
+	font-size:12px;
+	right:0px;
+	top:220px;
+	padding-right:25vh;	
+
+}
+
+.bio{
+
+	top:320px;
+	font-size:12px;
+	line-height:22px;
+	max-width:34%;
+}
+
+.website{
+	width:360px;
+	top:585px;
+}
+
+.houghpic{
+	top:340px;
+	width:360px;	
+
+}
+}
+
+@media(max-width: 550px){
+
+.quote{
+	top:60px;
+	font-size:38px;
+	padding-left:16vw;
+	padding-right:8vw;
+
+}
+
+.quote2{
+	
+	font-size:12px;
+	right:0px;
+	top:220px;
+	padding-right:36vh;	
+
+}
+
+.bio{
+
+	top:650px;
+	right:98px;
+	font-size:12px;
+	line-height:22px;
+	max-width:62%;
+}
+
+.website{
+	width:360px;
+	top:585px;
+	left:100px;
+}
+
+.houghpic{
+	top:340px;
+	width:360px;
+	left:100px;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
