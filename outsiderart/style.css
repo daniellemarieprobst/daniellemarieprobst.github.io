@@ -1,21 +1,67 @@
 html, body {
   margin: 0;
   padding: 0;
-
 }
 
-body{
-  line-height:22px;
- 
-}
-.header{
-	width:100vw;
-	height:40vh;
-}
+
 .home{
 	width:100vw;
+	height:102vh;
+	z-index:1;
+}
+.header{
+	top:0px;
+	position:absolute;
+	width:100vw;
+	height:40vh;
+	z-index:-10;
 }
 
+.backgroundopacity{
+	position:fixed;
+	top:0px;
+	width:100vw;
+	height:100vh;
+	background-color:#E6DDDE;
+	opacity:.15;
+	z-index:-3;
+}
+.rule1{
+	top:393px;
+	position:absolute;
+	margin-left: 8vw;
+	margin-right: 8vw;
+  	padding: 0;
+	position:absolute;
+	height:5px;
+	width:80vw;
+	background-color:#3D3934;
+	opacity:.1;
+}
+.rule1c{
+	top:380px;
+	position:absolute;
+	margin-left: 8vw;
+	margin-right: 8vw;
+  	padding: 0;
+	position:absolute;
+	height:5px;
+	width:80vw;
+	background-color:#3D3934;
+	opacity:.1;
+}
+a{
+	opacity:.4;
+}
+
+a:hover {
+	opacity:1;
+	cursor:pointer;
+}
+.back:hover {
+	opacity:1;
+	cursor:pointer;
+}
 .one{
 	position:absolute;
 	font-size:10px;
@@ -51,55 +97,183 @@ body{
 	top:600px;
 	right:10px;
 }
-
+.quotes{
+	position:absolute;
+	top:780px;
+	color:#3D3934;
+	opacity:.1;
+	font-size:55vw;
+	z-index:-5;
+	font-family: 'Coiny', cursive;
+}
+.pullquote{
+	position:absolute;
+	top:885px;
+ 	 padding-left: 10vw;
+ 	 line-height:50px;
+ 	 font-family: 'Fira Sans', sans-serif;
+  	font-weight:800;
+  	font-size:8vw;
+  	color:#3D3934;
+  }
+  .quotes2{
+	position:absolute;
+	top:630px;
+	color:#3D3934;
+	opacity:.1;
+	font-size:55vw;
+	z-index:-5;
+	font-family: 'Coiny', cursive;
+}
+.pullquote2{
+	position:absolute;
+	top:760px;
+ 	 padding-left: 10vw;
+ 	 line-height:50px;
+ 	 font-family: 'Fira Sans', sans-serif;
+  	font-weight:800;
+  	font-size:8vw;
+  	color:#3D3934;
+  }
+ .quotes3{
+	position:absolute;
+	top:680px;
+	color:#3D3934;
+	opacity:.1;
+	font-size:55vw;
+	z-index:-5;
+	font-family: 'Coiny', cursive;
+}
+.pullquote3{
+	position:absolute;
+	top:810px;
+ 	 padding-left: 10vw;
+ 	 line-height:50px;
+ 	 font-family: 'Fira Sans', sans-serif;
+  	font-weight:800;
+  	font-size:8vw;
+  	color:#3D3934;
+  }
+    .quotes4{
+	position:absolute;
+	top:1050px;
+	color:#3D3934;
+	opacity:.1;
+	font-size:55vw;
+	z-index:-5;
+	font-family: 'Coiny', cursive;
+}
+.pullquote4{
+	position:absolute;
+	top:1190px;
+ 	 padding-left: 10vw;
+ 	 line-height:50px;
+ 	 font-family: 'Fira Sans', sans-serif;
+  	font-weight:800;
+  	font-size:8vw;
+  	color:#3D3934;
+  }
 
 p{
 	 margin-left: 8vw;
 	 margin-right: 8vw;
  	 padding: 0;
+ 	 line-height:22px;
  	 font-family: 'Lato', sans-serif;
   	font-weight:400;
   	font-size:14px;
+  	color:#3D3934;
 }
 h1{
+	position:absolute;
 	margin-left: 8vw;
 	margin-right: 8vw;
-	padding: 0;
+	top:266px;
 	font-family: 'Fira Sans', sans-serif;
-	font-weight:300;
-	font-size:10vw;
+	font-weight:800;
+	font-size:12vw;
+	color:#3D3934;
+
 }
-h2{ 
+.charlotte{
+	position:absolute;
 	margin-left: 8vw;
 	margin-right: 8vw;
-  	padding: 0;
+	top:266px;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight:800;
+	font-size:10vw;
+	color:#3D3934;
+}
+.charlotte2{ 
+	margin-left: 8vw;
+	margin-right: 8vw;
+  	padding-top: 315px;
+  	padding-left:3px;
   	font-family: 'Lato', sans-serif;
 	font-size:14px;
 	font-weight:300;
-}
-h3{
-	position:absolute;
-	top:150px;
-	margin-left: 8vw;
-	margin-right: 8vw;
-	padding: 0;
-	font-family: 'Fira Sans', sans-serif;
-	font-weight:300;
-	font-size:10vw;
-	font-weight:500;
+	color:#3D3934;
 }
 
-.rule{
+h2{ 
+	margin-left: 8vw;
+	margin-right: 8vw;
+  	padding-top: 345px;
+  	padding-left:3px;
+  	font-family: 'Lato', sans-serif;
+	font-size:14px;
+	font-weight:300;
+	color:#3D3934;
+}
+h3{
+	margin-left: 8vw;
+	margin-right: 8vw;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight:800;
+	font-size:8vw;
+	color:#3D3934;
+}
+.the{
+	position:absolute;
+	top:90px;
+
+}
+.tortured{
+	position:absolute;
+	top:140px;
+
+}
+.artist{
+	position:absolute;
+	top:190px;
+	
+
+}
+
+
+.rule2{
 	margin-left: 8vw;
 	margin-right: 8vw;
   	padding: 0;
 	position:absolute;
-	height:4px;
+	height:5px;
 	width:80vw;
-	background-color:grey;
+	background-color:#3D3934;
+	opacity:.1;
+}
+.back{
+	color:#3D3934;
+	opacity:.1;
+	border:3px;
+	text-align:center;
+	font-family: 'Fira Sans', sans-serif;
+	text-decoration: none;
+
 }
 
-@media(max-width: 550px) {
+
+@media(max-width: 550px) {}
 
 
 
