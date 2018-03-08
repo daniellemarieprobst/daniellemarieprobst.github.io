@@ -6,7 +6,7 @@ html, body {
 
 .home{
 	width:100vw;
-	height:102vh;
+	height:100vh;
 	z-index:1;
 }
 .header{
@@ -66,35 +66,35 @@ a:hover {
 	position:absolute;
 	font-size:10px;
 	text-decoration: none;
-	top:480px;
+	top:470px;
 	right:10px;
 }
 .two{
 	position:absolute;
 	font-size:10px;
 	text-decoration: none;
-	top:510px;
+	top:500px;
 	right:10px;
 }
 .three{
 	position:absolute;
 	font-size:10px;
 	text-decoration: none;
-	top:540px;
+	top:530px;
 	right:10px;
 }
 .four{
 	position:absolute;
 	font-size:10px;
 	text-decoration: none;
-	top:570px;
+	top:560px;
 	right:10px;
 }
 .five{
 	position:absolute;
 	font-size:10px;
 	text-decoration: none;
-	top:600px;
+	top:590px;
 	right:10px;
 }
 .quotes{
@@ -118,7 +118,7 @@ a:hover {
   }
   .quotes2{
 	position:absolute;
-	top:630px;
+	top:680px;
 	color:#3D3934;
 	opacity:.1;
 	font-size:55vw;
@@ -127,7 +127,7 @@ a:hover {
 }
 .pullquote2{
 	position:absolute;
-	top:760px;
+	top:800px;
  	 padding-left: 10vw;
  	 line-height:50px;
  	 font-family: 'Fira Sans', sans-serif;
@@ -156,7 +156,7 @@ a:hover {
   }
     .quotes4{
 	position:absolute;
-	top:1050px;
+	top:1095px;
 	color:#3D3934;
 	opacity:.1;
 	font-size:55vw;
@@ -165,7 +165,26 @@ a:hover {
 }
 .pullquote4{
 	position:absolute;
-	top:1190px;
+	top:1210px;
+ 	 padding-left: 10vw;
+ 	 line-height:50px;
+ 	 font-family: 'Fira Sans', sans-serif;
+  	font-weight:800;
+  	font-size:8vw;
+  	color:#3D3934;
+  }
+  .quotes5{
+	position:absolute;
+	top:800px;
+	color:#3D3934;
+	opacity:.1;
+	font-size:55vw;
+	z-index:-5;
+	font-family: 'Coiny', cursive;
+}
+.pullquote5{
+	position:absolute;
+	top:910px;
  	 padding-left: 10vw;
  	 line-height:50px;
  	 font-family: 'Fira Sans', sans-serif;
